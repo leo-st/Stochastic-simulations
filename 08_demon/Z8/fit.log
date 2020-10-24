@@ -1,0 +1,141 @@
+
+
+*******************************************************************************
+Tue May 14 13:27:16 2019
+
+
+FIT:    data read from 'distribucija.dat' u 1:(log($2))
+        format = x:z
+        #datapoints = 385
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x) [:3][:]
+BREAK: Need via and either parameter list or file
+
+*******************************************************************************
+Tue May 14 13:33:06 2019
+
+
+FIT:    data read from 'distribucija.dat' u 1:(log($2))
+        format = x:z
+        #datapoints = 385
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x) [:3][:]
+	f(x)=a*x+b
+BREAK: Need via and either parameter list or file
+
+*******************************************************************************
+Tue May 14 13:33:16 2019
+
+
+FIT:    data read from 'distribucija.dat' u 1:(log($2))
+        format = x:z
+        #datapoints = 385
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x) [:3][:]
+	f(x)=a*x+b
+BREAK: Need via and either parameter list or file
+
+*******************************************************************************
+Tue May 14 13:33:42 2019
+
+
+FIT:    data read from 'distribucija.dat' u 1:(log($2))
+        format = x:z
+        #datapoints = 385
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x) [:3][:]
+	f(x)=a*x+b
+fitted parameters initialized with current variable values
+
+
+
+*******************************************************************************
+Tue May 14 13:34:26 2019
+
+
+FIT:    data read from 'distribucija.dat' u 1:(log($2))
+        format = x:z
+        #datapoints = 385
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x) [:3][:]
+	f(x)=a*x+b
+fitted parameters initialized with current variable values
+
+
+
+*******************************************************************************
+Tue May 14 13:34:48 2019
+
+
+FIT:    data read from 'distribucija.dat' u 1:(log($2))
+        format = x:z
+        #datapoints = 385
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=a*x+b
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 2.5682107160e+04   0.00e+00  1.73e+00    1.000000e+00   1.000000e+00
+   3 3.2489674325e+01  -6.90e-05  1.73e-03   -2.642571e+00   9.837296e-01
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 32.4897
+rel. change during last iteration : -6.90398e-10
+
+degrees of freedom    (FIT_NDF)                        : 383
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.291255
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.0848294
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = -2.64257         +/- 0.01314      (0.4972%)
+b               = 0.98373          +/- 0.02939      (2.987%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -0.863  1.000 
+
+
+*******************************************************************************
+Tue May 14 13:34:58 2019
+
+
+FIT:    data read from 'distribucija.dat' u 1:(log($2))
+        format = x:z
+        x range restricted to [* : 3.00000]
+        #datapoints = 301
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=a*x+b
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 4.8430634444e+00   0.00e+00  3.31e+00   -2.642571e+00   9.837296e-01
+   2 4.8017168419e+00  -5.17e-01  3.31e-02   -2.638295e+00   9.884308e-01
+
+After 2 iterations the fit converged.
+final sum of squares of residuals : 4.80172
+rel. change during last iteration : -5.16765e-06
+
+degrees of freedom    (FIT_NDF)                        : 299
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.126725
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.0160593
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = -2.63829         +/- 0.008406     (0.3186%)
+b               = 0.988431         +/- 0.01457      (1.474%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -0.865  1.000 
