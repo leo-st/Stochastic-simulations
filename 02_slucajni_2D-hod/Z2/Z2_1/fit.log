@@ -1,0 +1,60 @@
+
+
+*******************************************************************************
+Tue Mar 12 09:32:36 2019
+
+
+FIT:    data read from 'setac-1D.txt' u 1:2
+        format = x:z
+        #datapoints = 1000
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=2*D*x
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   D            
+   0 3.3694832277e+08   0.00e+00  1.16e+03    1.000000e+00
+   3 2.0155499222e+05  -1.67e-08  1.16e+00    4.978231e-01
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 201555
+rel. change during last iteration : -1.66778e-13
+
+degrees of freedom    (FIT_NDF)                        : 999
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 14.2041
+variance of residuals (reduced chisquare) = WSSR/ndf   : 201.757
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+D               = 0.497823         +/- 0.0003887    (0.07808%)
+
+
+*******************************************************************************
+Tue Mar 12 09:51:32 2019
+
+
+FIT:    data read from 'setac-1D.txt' u 1:2
+        format = x:z
+        #datapoints = 1000
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=2*D*x
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   D            
+   0 3.3694832277e+08   0.00e+00  1.16e+03    1.000000e+00
+   3 2.0155499222e+05  -1.67e-08  1.16e+00    4.978231e-01
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 201555
+rel. change during last iteration : -1.66778e-13
+
+degrees of freedom    (FIT_NDF)                        : 999
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 14.2041
+variance of residuals (reduced chisquare) = WSSR/ndf   : 201.757
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+D               = 0.497823         +/- 0.0003887    (0.07808%)

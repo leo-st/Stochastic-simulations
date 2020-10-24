@@ -1,0 +1,43 @@
+
+
+*******************************************************************************
+Tue Mar 26 11:05:33 2019
+
+
+FIT:    data read from 'setac-1D.txt' u 1:2
+        format = x:z
+        #datapoints = 1000
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=2.0*D*x
+BREAK: Need via and either parameter list or file
+
+*******************************************************************************
+Tue Mar 26 11:05:43 2019
+
+
+FIT:    data read from 'setac-1D.txt' u 1:2
+        format = x:z
+        #datapoints = 1000
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=2.0*D*x
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   D            
+   0 3.3260379086e+08   0.00e+00  1.16e+03    1.000000e+00
+   3 8.5309862318e+03  -3.88e-07  1.16e+00    1.499072e+00
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 8530.99
+rel. change during last iteration : -3.87722e-12
+
+degrees of freedom    (FIT_NDF)                        : 999
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 2.92225
+variance of residuals (reduced chisquare) = WSSR/ndf   : 8.53953
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+D               = 1.49907          +/- 7.997e-05    (0.005335%)

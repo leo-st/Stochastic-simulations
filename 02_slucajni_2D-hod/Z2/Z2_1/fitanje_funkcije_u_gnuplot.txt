@@ -1,0 +1,2 @@
+f(x)=2*D*x
+fit f(x) 'setac-1D.txt' u 1:2 via D
